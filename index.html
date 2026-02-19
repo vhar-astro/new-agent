@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-агент для продаж и поддержки | DemoAgent</title>
+  <meta name="description" content="DemoAgent автоматизирует ответы клиентам 24/7, интегрируется с CRM и мессенджерами, повышает конверсию и снижает нагрузку команды." />
+  <link rel="canonical" href="https://example.com/" />
+  <link rel="alternate" hreflang="ru" href="https://example.com/" />
+  <link rel="alternate" hreflang="en" href="https://example.com/en/" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "DemoAgent",
+      "description": "AI-агент для продаж и поддержки",
+      "brand": {"@type": "Brand", "name": "DemoAgent"},
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "49",
+        "highPrice": "499",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Как обучается агент?", "acceptedAnswer": {"@type": "Answer", "text": "Вы загружаете FAQ, документы и скрипты продаж, после чего агент проходит настройку тональности и сценариев."}},
+        {"@type": "Question", "name": "Какие интеграции есть?", "acceptedAnswer": {"@type": "Answer", "text": "CRM, Google Sheets, email, WhatsApp и Telegram через API и webhooks."}},
+        {"@type": "Question", "name": "Насколько безопасны данные?", "acceptedAnswer": {"@type": "Answer", "text": "Данные передаются по защищенному каналу, хранятся с разграничением доступов и журналируются."}}
+      ]
+    }
+  </script>
+</head>
+<body class="theme-dark">
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">DemoAgent</div>
+      <nav>
+        <a href="#features">Возможности</a>
+        <a href="#steps">Как это работает</a>
+        <a href="#business">Для бизнеса</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#testimonials">Отзывы</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="actions">
+        <a class="lang" href="/en/">EN</a>
+        <a class="btn" href="#lead-form">Попробовать демо</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <h1>AI-агент, который берёт на себя рутину общения с клиентами</h1>
+        <p>Автоматизируйте ответы 24/7, увеличьте конверсию и освободите менеджеров от повторяющихся задач.</p>
+        <div class="cta-row">
+          <a class="btn" href="#lead-form">Запустить демо</a>
+          <a class="btn btn-light" href="#video">Посмотреть видео-демо</a>
+        </div>
+      </div>
+      <div class="chat-demo" aria-label="Демо чат">
+        <div class="chat-header">Демо-чат агента</div>
+        <div id="chat-messages" class="chat-messages">
+          <div class="msg agent">Здравствуйте! Я помогу подобрать тариф и отвечу на вопросы.</div>
+        </div>
+        <form id="chat-form" class="chat-form">
+          <input id="chat-input" type="text" placeholder="Например: интеграция с Битрикс24" />
+          <button type="submit">Отправить</button>
+        </form>
+        <button id="chat-reset" class="link-btn" type="button">Сбросить диалог и начать заново</button>
+      </div>
+    </section>
+
+    <section id="steps" class="section section-steps">
+      <div class="container">
+        <h2>Как это работает в 3 шага</h2>
+        <div class="grid-3 steps-grid">
+          <article class="card step-card"><h3>1. Подключить</h3><ul><li>Регистрация за 5 минут</li><li>Подключение сайта и мессенджеров</li><li>Базовые сценарии из шаблона</li></ul></article>
+          <article class="card step-card"><h3>2. Обучить агента</h3><ul><li>Загрузка FAQ и документов</li><li>Настройка тональности</li><li>Связка с CRM и email</li></ul></article>
+          <article class="card step-card"><h3>3. Запустить</h3><ul><li>Ответы клиентам 24/7</li><li>Передача сложных кейсов менеджеру</li><li>Аналитика и отчеты в кабинете</li></ul></article>
+        </div>
+        <div class="center-cta"><a class="btn btn-acid" href="#lead-form">Начать</a></div>
+      </div>
+    </section>
+
+    <section id="business" class="section">
+      <div class="container business-shell">
+      <h2>AI-агент для бизнеса</h2>
+        <div class="grid-4">
+          <article class="card"><h3>Запись и аналитика</h3><p>Автосводки, KPI, контроль качества диалогов.</p></article>
+          <article class="card"><h3>Командная работа</h3><p>Несколько менеджеров в одном аккаунте.</p></article>
+          <article class="card"><h3>Приоритетная поддержка</h3><p>Выделенный onboarding и SLA.</p></article>
+          <article class="card"><h3>Гибкая настройка</h3><p>Под e-commerce, услуги, B2B и образование.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="section section-alt">
+      <div class="container">
+        <h2>Посмотрите в действии</h2>
+        <p>Запустите агента и получите первые результаты менее чем за 7 дней.</p>
+        <div class="video-wrap">
+          <iframe loading="lazy" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Видео демо" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Почему выбрать нашего AI-агента?</h2>
+        <div class="grid-3">
+          <article class="card"><h3>Везде, где ваши клиенты</h3><p>Сайт, Telegram, WhatsApp, email, CRM.</p></article>
+          <article class="card"><h3>Без приложений</h3><p>Пользователю не нужно ничего устанавливать.</p></article>
+          <article class="card"><h3>Гибкая оплата</h3><p>Подписка или pay-as-you-go.</p></article>
+          <article class="card"><h3>Обучение на ваших данных</h3><p>FAQ, скрипты, инструкции, прайсы.</p></article>
+          <article class="card"><h3>Безопасность</h3><p>Шифрование, права доступа, логирование.</p></article>
+          <article class="card"><h3>Мультиязычность</h3><p>Русский, английский и другие языки.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compare">
+      <div class="container">
+        <h2>Почему выбрать нашего AI-агента?</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Критерий</th><th>Наш AI-агент</th><th>Живой оператор</th><th>Классический чат-бот</th></tr></thead>
+            <tbody>
+              <tr><td>Режим работы</td><td>24/7</td><td>По сменам</td><td>24/7</td></tr>
+              <tr><td>Скорость ответа</td><td>Мгновенно</td><td>Средняя</td><td>Быстро</td></tr>
+              <tr><td>Гибкость сценариев</td><td>Высокая</td><td>Высокая</td><td>Низкая</td></tr>
+              <tr><td>Стоимость масштаба</td><td>Низкая</td><td>Высокая</td><td>Средняя</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2>Прозрачные тарифы</h2>
+        <div class="grid-3">
+          <article class="card"><h3>Базовый</h3><p class="price">$49 / мес</p><p>До 1 000 диалогов, 1 канал, email-поддержка.</p><a class="btn" href="#lead-form">Выбрать тариф</a></article>
+          <article class="card featured"><h3>Бизнес</h3><p class="price">$149 / мес</p><p>До 10 000 диалогов, CRM, 3 канала, аналитика.</p><a class="btn" href="#lead-form">Выбрать тариф</a></article>
+          <article class="card"><h3>Enterprise</h3><p class="price">По запросу</p><p>SLA, SSO, выделенный контур, кастомные интеграции.</p><a class="btn" href="#lead-form">Оставить заявку</a></article>
+        </div>
+        <form id="lead-form" class="lead-form">
+          <h3>Получить демо</h3>
+          <input required name="name" placeholder="Ваше имя" />
+          <input required type="email" name="email" placeholder="Email" />
+          <input name="company" placeholder="Компания" />
+          <button class="btn" type="submit">Отправить заявку</button>
+          <small>Интеграция с CRM/webhook настраивается в script.js.</small>
+        </form>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section section-testimonials">
+      <div class="container">
+        <h2>Отзывы клиентов</h2>
+        <div class="grid-3">
+          <article class="card"><p>«Сократили время ответа с 15 минут до 40 секунд.»</p><strong>Анна, Минск</strong></article>
+          <article class="card"><p>«+28% к конверсии из чата за 2 месяца.»</p><strong>Олег, Москва</strong></article>
+          <article class="card"><p>«Запустили в Telegram и на сайте без команды разработки.»</p><strong>Irena, Warsaw</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details><summary>Как обучается агент?</summary><p>На вашей базе знаний: FAQ, документы, скрипты и история обращений.</p></details>
+        <details><summary>Какие интеграции есть?</summary><p>CRM, почта, Google Sheets, Telegram, WhatsApp, webhooks.</p></details>
+        <details><summary>Можно ли подключить несколько сайтов?</summary><p>Да, в тарифах Бизнес и Enterprise.</p></details>
+        <details><summary>Как считаются тарифы?</summary><p>По количеству диалогов и подключенных каналов.</p></details>
+        <details><summary>Насколько безопасны данные?</summary><p>Используются шифрование, аудит доступа и разграничение ролей.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacts" class="footer">
+    <div class="container grid-3">
+      <div><h3>DemoAgent</h3><p>AI-платформа для продаж и поддержки, которая помогает бизнесу отвечать быстрее и продавать больше.</p></div>
+      <div><h4>Быстрые ссылки</h4><a href="#lead-form">Демо</a><a href="#pricing">Тарифы</a><a href="#faq">FAQ</a></div>
+      <div><h4>Контакты</h4><p>hello@demoagent.ai</p><p>+375 00 000 00 00</p><a href="#">Политика конфиденциальности</a><a href="#">Условия использования</a></div>
+    </div>
+  </footer>
+</body>
+</html>
